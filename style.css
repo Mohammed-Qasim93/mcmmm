@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{font-size: 62.5%;}
+.pd-1{padding: 1rem;}
+.pd-2{padding: 1.5rem;}
+.pd-3{padding: 2rem;}
+.pd-4{padding:4rem}
+
+
+.heading{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+.pp{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+#navbar{
+    background: #f4f4f4;
+}
+#navbar .mnav{
+    font-size: 2rem;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+    background:#f4f4f4; 
+}
+#logo{
+    font-size: 1rem;
+}
+
+.navbtn{
+    color:#fff;
+    text-decoration: none;
+    background:blue;
+    padding:1rem 1.5rem;
+    border-radius: 5px;
+}
+.navbtn:hover{
+    opacity: 0.8;
+}
+
+#main{
+    background: url('./markus-spiske-dMh1A35w_BE-unsplash.jpg') no-repeat center center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.maintext{
+    font-size: 2rem;
+}
+.input{
+    width:700px;
+    display: flex; 
+    border-radius: 5px;
+
+}
+
+.inputf{
+    width:80%;
+    margin:1rem 2rem;
+    border-radius: 5px;
+    border: none;
+}
+.inputf:focus{
+    border: solid 3px blue;
+    width:80%;
+    margin:1rem 2rem;
+    border-radius: 5px;
+}
+.btn{
+    width:15%;
+    margin:1rem 1rem;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+/* first sction */
+.mainic{
+    max-width: 100%px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    align-items: center;    
+}
+.icons .mainic .content i{
+    color: rgb(111, 156, 238);
+    
+}
+.icons .mainic .content p{
+    margin-top: 2rem;
+    max-width: 300px;
+    font-size: 1.8rem;
+}
+
+.icons{
+    background: #f8f9fa;
+}
+.heading1{
+    font-size:2rem;
+}
+
+.griditems{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background: white;
+}
+#grid .griditems .img1{
+    background: url('./download.jpeg') no-repeat center center/cover;
+}
+#grid .griditems .img2{
+    background: url('./photo-1508921912186-1d1a45ebb3c1.jpeg') no-repeat center center/cover;
+}
+#grid .griditems .img3{
+    background: url('./photo-1559628129-67cf63b72248.jpeg') no-repeat center center/cover;
+}
+#grid .griditems .fitem{
+    height: 70vh;
+}
+#grid .griditems .sitem{
+    height: 70vh;
+}
+#grid .griditems .titem{
+    height: 70vh;
+}
+#grid .griditems .fitem ,
+#grid .griditems .sitem ,
+#grid .griditems .titem {
+    height: 70vh;
+    text-align: left;
+    padding: 20rem 10rem 10rem 10rem;
+
+}
+#whatgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    text-align: center;
+    padding-top: 10rem;
+    background: #f8f9fa;
+
+}
+#whatgrid .first .person1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: url('./download.jpeg') no-repeat center center/cover;
+}
+#whatgrid .second .person2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: url('./photo-1559628129-67cf63b72248.jpeg') no-repeat center center/cover;
+}
+#whatgrid .third .person3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: url('./photo-1508921912186-1d1a45ebb3c1.jpeg') no-repeat center center/cover;
+}
+.t{
+    padding-top:2rem
+}
+.last{
+    background: url('./markus-spiske-dMh1A35w_BE-unsplash.jpg') no-repeat center center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainfooter .footercat{
+    display: grid;
+    grid-template-columns: 8fr 5fr;
+    justify-content: space-between;
+    margin-left: 20rem;
+}
+
+#mainfooter .footercat .links ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+#mainfooter .footercat .links ul li{
+    padding-left: 2rem;
+    
+}
+#mainfooter .footercat .links ul li a{
+    text-decoration: none; 
+}
+#mainfooter .footercat .iconat i{
+    padding: 0rem 1rem;
+    margin:0 1rem;
+    color: cornflowerblue;
+}
+#mainfooter p{
+    padding-left:23rem;
+}
